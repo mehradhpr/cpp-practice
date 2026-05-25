@@ -1,0 +1,25 @@
+# === C++ Compiled Binaries & Objects ===
+hello
+
+# Ignore any future compiled executables (files without extensions on Linux)
+*.out
+*.o
+*.obj
+
+# === C++23 Modules Cache ===
+gcm.cache/
+*.gcm
+
+# === VS Code Local Settings ===
+.vscode/c_cpp_properties.json
+.vscode/.cmany/
+.vscode/browse.vc.db
+.vscode/*.log
+.vscode
+
+# === OS generated files ===
+.DS_Store
+Thumbs.db
+
+# === Library files ===
+std.cpp
